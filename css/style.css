@@ -1,0 +1,93 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+header{
+    background: radial-gradient(orange, darkorange);
+    margin-bottom: 50px;    
+}
+nav ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+nav ul li{
+    float: right;
+}
+nav ul li a{
+    display: block;
+    padding: 20px;
+    color: rgb(6, 6, 77);
+    text-decoration: none;
+}
+nav ul li a:hover{
+    background-color: rgb(243, 188, 86);
+}
+.lefty{
+    float: left;
+}
+.slogan{
+    color: rgb(3, 3, 77);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 50px;
+    padding-top: 40px;
+    position: relative;
+    top: 40px;
+    left: 150px;
+}
+#slogan-img{
+    position: relative;
+    left: 10%;
+}
+/*.promo-text{
+    margin-left: 5%;
+}*/
+.promo-text h1{
+    padding: 70px 0px;
+}
+.promo-text p{
+    color: darkblue;
+}
+.bgdarkblue{
+    background-color: rgb(2, 2, 59);
+    color: white;
+}
+.figure{
+    padding: 100px;
+}
+.text-with-bg{
+    position: relative;
+}
+.text-with-bg img{
+    opacity: 0.7;
+    z-index: 1;
+    height: 400px;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
+}
+.text-with-bg .left-side{
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    color: white;
+    width: 40%;
+    padding-left: 40px;
+}
+.right-side{
+    float: right;
+    position: absolute;
+    top: 80px;
+    left: 700px;
+}
+
+.divisions{
+    margin-top: 80px;
+}
+.news{
+    margin-top: 80px;
+}
+footer{
+    background-color: rgb(204, 199, 199);
+    height: 100px;
+    margin-top: 40px;
+}
