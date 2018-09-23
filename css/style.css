@@ -88,6 +88,10 @@ nav ul li a:hover{
 }
 footer{
     background-color: rgb(204, 199, 199);
-    height: 100px;
+    /*height: 100px;*/
     margin-top: 40px;
+    padding: 40px;
+}
+footer input{
+    width: 50%;
 }
